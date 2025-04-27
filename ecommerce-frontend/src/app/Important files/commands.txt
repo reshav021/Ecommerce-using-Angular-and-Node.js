@@ -1,0 +1,8 @@
+To create an angular project
+    ng new project-name --no-standalone
+
+To create a component
+    ng generate component component-name
+
+To add module file
+    ng generate module module-name --routing
