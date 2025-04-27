@@ -1,4 +1,4 @@
-# 📄 E-Commerce Project Documentation (Angular + Node.js + MongoDB)
+# 📄 E-Commerce Project (Angular + Node.js + MongoDB)
 
 ---
 
