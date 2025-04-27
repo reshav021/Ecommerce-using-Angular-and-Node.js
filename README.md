@@ -4,7 +4,7 @@
 
 ## 1. 🎯 Project Overview
 
-> Build a full-stack **E-commerce Application** using **Angular (frontend)** and **Node.js (backend)** with **MongoDB** for database management.  
+Build a full-stack **E-commerce Application** using **Angular (frontend)** and **Node.js (backend)** with **MongoDB** for database management.  
 The application allows users to **browse products**, **add to cart**, **place orders**, **manage profiles**, and for **admins** to **manage products and orders**.
 
 ---
