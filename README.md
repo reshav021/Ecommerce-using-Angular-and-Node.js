@@ -40,26 +40,64 @@ The application allows users to **browse products**, **add to cart**, **place or
 │   └── package.json
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── core/              # Core services (Auth service, API interceptor, Guards)
-│   │   │   ├── shared/            # Reusable shared components (buttons, modals, etc.)
-│   │   │   ├── layout/            # Main layout components (header, footer, sidebar, dashboard layout)
-│   │   │   │   ├── header/
-│   │   │   │   ├── footer/
-│   │   │   │   ├── sidebar/
-│   │   │   │   └── dashboard/     # Main layout screen (combining header + sidebar + content)
-│   │   │   ├── auth/              # Login, Signup, Forgot Password (Lazy Loaded Module)
-│   │   │   ├── products/          # Products listing, details (Lazy Loaded Module)
-│   │   │   ├── cart/              # Cart operations (Lazy Loaded Module)
-│   │   │   ├── orders/            # Orders, checkout pages (Lazy Loaded Module)
-│   │   │   ├── admin/             # Admin dashboard (Lazy Loaded Module)
-│   │   │   ├── app-routing.module.ts
-│   │   │   └── app.module.ts
-│   ├── angular.json
-│   ├── package.json
-│   └── environment.ts
-└── README.md
+├── src/app/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   ├── login/
+│   │   │   │   └── login.component.ts/html/css
+│   │   │   ├── signup/
+│   │   │   │   └── signup.component.ts/html/css
+│   │   │   └── forgot-password/
+│   │   │       └── forgot-password.component.ts/html/css
+│   │   │
+│   │   ├── layout/
+│   │   │   ├── dashboard/
+│   │   │   │   └── dashboard.component.ts/html/css
+│   │   │   ├── header/
+│   │   │   │   └── header.component.ts/html/css
+│   │   │   └── sidebar/
+│   │   │       └── sidebar.component.ts/html/css
+│   │   │
+│   │   ├── orders/
+│   │   │   ├── cart/
+│   │   │   │   └── cart.component.ts/html/css
+│   │   │   ├── checkout-page/
+│   │   │   │   └── checkout-page.component.ts/html/css
+│   │   │   └── order-history/
+│   │   │       └── order-history.component.ts/html/css
+│   │   │
+│   │   ├── products/
+│   │   │   ├── product-detail/
+│   │   │   │   └── product-detail.component.ts/html/css
+│   │   │   ├── product-list/
+│   │   │   │   └── product-list.component.ts/html/css
+│   │   │   └── wishlist/
+│   │   │       └── wishlist.component.ts/html/css
+│   │   │
+│   │   ├── profile/
+│   │   │   └── profile-information/
+│   │   │       └── profile-information.component.ts/html/css
+│   │   │
+│   │   └── admin/
+│   │       ├── manage-user-access/
+│   │       │   └── manage-user-access.component.ts/html/css
+│   │       ├── add-product/
+│   │       │   └── add-product.component.ts/html/css
+│   │       └── add-offers/
+│   │           └── add-offers.component.ts/html/css
+│   │
+│   ├── app-routing.module.ts
+│   ├── app.module.ts
+│
+├── assets/
+│
+├── environments/
+│   ├── environment.ts
+│
+├── index.html
+├── main.ts
+└── styles.css
+
 ```
 
 ---
