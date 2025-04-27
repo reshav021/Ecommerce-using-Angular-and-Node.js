@@ -1,0 +1,26 @@
+To create a branch from base-branch
+    git checkout -b new-branch-name base-branch-name
+    ex: git checkout -b dev main
+
+To push a code
+    git push
+
+To take a pull from base branch
+    git pull
+
+To take a pull from a branch
+    git pull origin branch-name
+
+To switch branch 
+    git switch branch-name
+
+To stage a change
+    git add .
+
+To commit a change
+    git commit -m 'your message'
+
+If we made any change in current branch and want to take our changes to another branch
+    git stash
+    git switch other-branch-name 
+    git stash apply
