@@ -42,13 +42,18 @@ The application allows users to **browse products**, **add to cart**, **place or
 ├── frontend/
 │   ├── src/
 │   │   ├── app/
-│   │   │   ├── core/         # Services, Interceptors
-│   │   │   ├── shared/       # Shared Components (Navbar, Footer)
-│   │   │   ├── auth/         # Login, Signup (Lazy Loaded)
-│   │   │   ├── products/     # Product listing, details (Lazy Loaded)
-│   │   │   ├── cart/         # Cart operations (Lazy Loaded)
-│   │   │   ├── orders/       # Orders, checkout (Lazy Loaded)
-│   │   │   ├── admin/        # Admin dashboard (Lazy Loaded)
+│   │   │   ├── core/              # Core services (Auth service, API interceptor, Guards)
+│   │   │   ├── shared/            # Reusable shared components (buttons, modals, etc.)
+│   │   │   ├── layout/            # Main layout components (header, footer, sidebar, dashboard layout)
+│   │   │   │   ├── header/
+│   │   │   │   ├── footer/
+│   │   │   │   ├── sidebar/
+│   │   │   │   └── dashboard/     # Main layout screen (combining header + sidebar + content)
+│   │   │   ├── auth/              # Login, Signup, Forgot Password (Lazy Loaded Module)
+│   │   │   ├── products/          # Products listing, details (Lazy Loaded Module)
+│   │   │   ├── cart/              # Cart operations (Lazy Loaded Module)
+│   │   │   ├── orders/            # Orders, checkout pages (Lazy Loaded Module)
+│   │   │   ├── admin/             # Admin dashboard (Lazy Loaded Module)
 │   │   │   ├── app-routing.module.ts
 │   │   │   └── app.module.ts
 │   ├── angular.json
