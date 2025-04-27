@@ -14,6 +14,11 @@ import { CheckoutPageComponent } from './components/orders/checkout-page/checkou
 import { OrderHistoryComponent } from './components/orders/order-history/order-history.component';
 import { ProductDetailComponent } from './components/products/product-detail/product-detail.component';
 import { ProductListComponent } from './components/products/product-list/product-list.component';
+import { WishlistComponent } from './components/products/wishlist/wishlist.component';
+import { ProfileInformationComponent } from './components/profile/profile-information/profile-information.component';
+import { ManageUserAccessComponent } from './components/admin/manage-user-access/manage-user-access.component';
+import { AddProductComponent } from './components/admin/add-product/add-product.component';
+import { AddOffersComponent } from './components/admin/add-offers/add-offers.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { ProductListComponent } from './components/products/product-list/product
     CheckoutPageComponent,
     OrderHistoryComponent,
     ProductDetailComponent,
-    ProductListComponent
+    ProductListComponent,
+    WishlistComponent,
+    ProfileInformationComponent,
+    ManageUserAccessComponent,
+    AddProductComponent,
+    AddOffersComponent
   ],
   imports: [
     BrowserModule,
