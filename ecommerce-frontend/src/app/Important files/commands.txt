@@ -6,3 +6,11 @@ To create a component
 
 To add module file
     ng generate module module-name --routing
+
+To add lazy-loading(Go to app-routing.module.ts file)
+    const routes: Routes = [
+        {
+            path: 'path-name',
+            loadChildren: () => import('./components/module-name.module').then(m => m.ModuleName)
+        }
+    ];
